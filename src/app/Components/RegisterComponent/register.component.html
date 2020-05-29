@@ -1,0 +1,26 @@
+<mat-card class="Main-container">
+  <h2 id="title">
+    Register
+  </h2>
+  <form [formGroup]="formgroup" (ngSubmit)="onSubmit()">
+    <mat-form-field appearance="outline">
+      <mat-label>Name</mat-label>
+      <input matInput placeholder="Name" formControlName="name" />
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Age</mat-label>
+      <input
+        matInput
+        placeholder="Age"
+        formControlName="name"
+        formControlName="age"
+        type="number"
+      />
+    </mat-form-field>
+
+    <button id="submit-button" mat-raised-button type="submit" [disabled]="formgroup.invalid">
+      Submit
+    </button>
+  </form>
+</mat-card>

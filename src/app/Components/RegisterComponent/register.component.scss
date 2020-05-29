@@ -1,0 +1,36 @@
+.Main-container {
+  background-color: rgb(94, 92, 92);
+  margin: 2% auto;
+  width: 35%;
+  padding: 2%;
+  
+ 
+  #title {
+    text-align: center;
+    font-size: 1.5vw;
+  }
+
+  form {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.75vw;
+    
+
+    input {
+      color: black;
+    }
+
+    #submit-button{
+        background-color: green;
+        color: white;
+        margin: 1% auto;
+        font-size: 1.1vw;
+        padding: 1.5%;
+        width: 20%;
+
+    }
+  }
+
+  
+}
