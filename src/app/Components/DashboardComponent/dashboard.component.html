@@ -1,4 +1,9 @@
 <div class="DashboardMenu">
-    Dashboard
-    
+  Dashboard
+
+  <person-info-component
+    *ngFor="let person of people"
+    [name]="person.name"
+    [age]="person.age"
+  ></person-info-component>
 </div>
